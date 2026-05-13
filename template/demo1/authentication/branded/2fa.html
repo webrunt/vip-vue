@@ -1,6 +1,6 @@
 <!--
 Product: Metronic is a toolkit of UI components built with Tailwind CSS for developing scalable web applications quickly and efficiently
-Version: v9.2.0
+Version: v9.4.12
 Author: Keenthemes
 Contact: support@keenthemes.com
 Website: https://www.keenthemes.com
@@ -97,13 +97,13 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
         </a>
        </div>
       </div>
-      <div class="flex flex-wrap justify-center gap-2.5">
-       <input class="kt-input focus:border-primary/10 focus:ring-3 focus:ring-primary/10 size-10 shrink-0 px-0 text-center" maxlength="1" name="code_0" placeholder="" type="text" value=""/>
-       <input class="kt-input focus:border-primary/10 focus:ring-3 focus:ring-primary/10 size-10 shrink-0 px-0 text-center" maxlength="1" name="code_1" placeholder="" type="text" value=""/>
-       <input class="kt-input focus:border-primary/10 focus:ring-3 focus:ring-primary/10 size-10 shrink-0 px-0 text-center" maxlength="1" name="code_2" placeholder="" type="text" value=""/>
-       <input class="kt-input focus:border-primary/10 focus:ring-3 focus:ring-primary/10 size-10 shrink-0 px-0 text-center" maxlength="1" name="code_3" placeholder="" type="text" value=""/>
-       <input class="kt-input focus:border-primary/10 focus:ring-3 focus:ring-primary/10 size-10 shrink-0 px-0 text-center" maxlength="1" name="code_4" placeholder="" type="text" value=""/>
-       <input class="kt-input focus:border-primary/10 focus:ring-3 focus:ring-primary/10 size-10 shrink-0 px-0 text-center" maxlength="1" name="code_5" placeholder="" type="text" value=""/>
+      <div class="flex flex-wrap justify-center gap-2.5" data-kt-pin-input="true" data-kt-pin-input-name="verification_code">
+       <input aria-label="Digit 1 of 6" autocomplete="one-time-code" class="kt-input focus:border-primary/10 focus:ring-3 focus:ring-primary/10 size-10 shrink-0 px-0 text-center" data-kt-pin-input-item="" inputmode="numeric" maxlength="1" type="tel"/>
+       <input aria-label="Digit 2 of 6" autocomplete="off" class="kt-input focus:border-primary/10 focus:ring-3 focus:ring-primary/10 size-10 shrink-0 px-0 text-center" data-kt-pin-input-item="" inputmode="numeric" maxlength="1" type="text"/>
+       <input aria-label="Digit 3 of 6" autocomplete="off" class="kt-input focus:border-primary/10 focus:ring-3 focus:ring-primary/10 size-10 shrink-0 px-0 text-center" data-kt-pin-input-item="" inputmode="numeric" maxlength="1" type="text"/>
+       <input aria-label="Digit 4 of 6" autocomplete="off" class="kt-input focus:border-primary/10 focus:ring-3 focus:ring-primary/10 size-10 shrink-0 px-0 text-center" data-kt-pin-input-item="" inputmode="numeric" maxlength="1" type="text"/>
+       <input aria-label="Digit 5 of 6" autocomplete="off" class="kt-input focus:border-primary/10 focus:ring-3 focus:ring-primary/10 size-10 shrink-0 px-0 text-center" data-kt-pin-input-item="" inputmode="numeric" maxlength="1" type="text"/>
+       <input aria-label="Digit 6 of 6" autocomplete="off" class="kt-input focus:border-primary/10 focus:ring-3 focus:ring-primary/10 size-10 shrink-0 px-0 text-center" data-kt-pin-input-item="" inputmode="numeric" maxlength="1" type="text"/>
       </div>
       <div class="flex items-center justify-center mb-2">
        <span class="text-2sm text-secondary-foreground me-1.5">
@@ -113,7 +113,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
         Resend
        </a>
       </div>
-      <button class="kt-btn kt-btn-primary flex justify-center grow">
+      <button class="kt-btn kt-btn-primary flex justify-center grow" type="submit">
        Continue
       </button>
      </form>

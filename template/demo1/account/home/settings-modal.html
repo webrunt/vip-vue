@@ -1,6 +1,6 @@
 <!--
 Product: Metronic is a toolkit of UI components built with Tailwind CSS for developing scalable web applications quickly and efficiently
-Version: v9.2.0
+Version: v9.4.12
 Author: Keenthemes
 Contact: support@keenthemes.com
 Website: https://www.keenthemes.com
@@ -76,15 +76,17 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
    <!-- Sidebar -->
    <div class="kt-sidebar bg-background border-e border-e-border fixed top-0 bottom-0 z-20 hidden lg:flex flex-col items-stretch shrink-0 [--kt-drawer-enable:true] lg:[--kt-drawer-enable:false]" data-kt-drawer="true" data-kt-drawer-class="kt-drawer kt-drawer-start top-0 bottom-0" id="sidebar">
     <div class="kt-sidebar-header hidden lg:flex items-center relative justify-between px-3 lg:px-6 shrink-0" id="sidebar_header">
-     <a class="dark:hidden" href="html/demo1.html">
-      <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo.svg"/>
-      <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg"/>
-     </a>
-     <a class="hidden dark:block" href="html/demo1.html">
-      <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo-dark.svg"/>
-      <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg"/>
-     </a>
-     <button class="kt-btn kt-btn-outline kt-btn-icon size-[30px] absolute start-full top-2/4 -translate-x-2/4 -translate-y-2/4 rtl:translate-x-2/4" data-kt-toggle="body" data-kt-toggle-class="kt-sidebar-collapse" id="sidebar_toggle">
+     <div class="kt-sidebar-logo min-w-0">
+      <a class="dark:hidden" href="html/demo1.html">
+       <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo.svg"/>
+       <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg"/>
+      </a>
+      <a class="hidden dark:block" href="html/demo1.html">
+       <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo-dark.svg"/>
+       <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg"/>
+      </a>
+     </div>
+     <button class="kt-btn kt-btn-outline kt-btn-icon size-[30px] absolute start-full top-2/4 z-40 -translate-x-2/4 -translate-y-2/4 rtl:translate-x-2/4" data-kt-toggle="body" data-kt-toggle-class="kt-sidebar-collapse" id="sidebar_toggle">
       <i class="ki-filled ki-black-left-line kt-toggle-active:rotate-180 transition-all duration-300 rtl:translate rtl:rotate-180 rtl:kt-toggle-active:rotate-0">
       </i>
      </button>
@@ -747,6 +749,15 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
             </a>
            </div>
            <div class="kt-menu-item">
+            <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[5px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/account/members/team-members-datatable.html" tabindex="0">
+             <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
+             </span>
+             <span class="kt-menu-title text-2sm font-normal text-foreground kt-menu-item-active:text-primary kt-menu-item-active:font-semibold kt-menu-link-hover:!text-primary">
+              Team Members (DataTables)
+             </span>
+            </a>
+           </div>
+           <div class="kt-menu-item">
             <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[5px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/account/members/import-members.html" tabindex="0">
              <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
              </span>
@@ -1340,6 +1351,15 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
          <div class="kt-menu-item">
+          <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[14px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/authentication/welcome-message-2.html" tabindex="0">
+           <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
+           </span>
+           <span class="kt-menu-title text-2sm font-normal text-foreground kt-menu-item-active:text-primary kt-menu-item-active:font-semibold kt-menu-link-hover:!text-primary">
+            Welcome Message 2
+           </span>
+          </a>
+         </div>
+         <div class="kt-menu-item">
           <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[14px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/authentication/account-deactivated.html" tabindex="0">
            <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
            </span>
@@ -1524,6 +1544,17 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
+       </div>
+       <div class="kt-menu-item">
+        <a class="kt-menu-link gap-[10px] ps-[10px] pe-[10px] py-[6px] border border-transparent kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg" href="html/demo1/plugins/fullcalendar.html" tabindex="0">
+         <span class="kt-menu-icon items-start text-muted-foreground kt-menu-item-active:text-primary kt-menu-link-hover:!text-primary w-[20px]">
+          <i class="ki-filled ki-calendar-tick text-lg">
+          </i>
+         </span>
+         <span class="kt-menu-title text-sm font-medium text-foreground kt-menu-item-active:text-primary kt-menu-link-hover:!text-primary">
+          Project Planning
+         </span>
+        </a>
        </div>
        <div class="kt-menu-item">
         <div class="kt-menu-label border border-transparent gap-[10px] ps-[10px] pe-[10px] py-[6px]" href="" tabindex="0">
@@ -3358,7 +3389,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </div>
          </div>
          <div class="grid p-5 border-t border-t-border">
-          <a class="kt-btn kt-btn-outline justify-center" href="html/demo1/account/api-keys.html">
+          <a class="kt-btn kt-btn-outline justify-center" href="html/demo1/account/integrations.html">
            Go to Apps
           </a>
          </div>
@@ -4070,9 +4101,86 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
              </div>
              <div class="flex items-baseline flex-wrap lg:flex-nowrap gap-2.5">
               <label class="kt-form-label max-w-56">
+               Date of Birth
+              </label>
+              <div class="grow">
+               <div class="kt-input">
+                <i class="ki-filled ki-calendar">
+                </i>
+                <input class="grow" data-kt-date-picker="true" data-kt-date-picker-format="dd MMM yyyy" data-kt-date-picker-input-mode="true" data-kt-date-picker-position-to-input="left" id="dob-plain-date-picker" placeholder="Select date of birth" readonly="" type="text">
+                </input>
+               </div>
+              </div>
+             </div>
+             <div class="flex items-baseline flex-wrap lg:flex-nowrap gap-2.5">
+              <label class="kt-form-label max-w-56">
+               Validity
+              </label>
+              <div class="grow">
+               <div class="kt-input">
+                <i class="ki-filled ki-calendar">
+                </i>
+                <input class="grow" data-kt-date-picker="true" data-kt-date-picker-action-buttons="true" data-kt-date-picker-display-months-count="2" data-kt-date-picker-input-mode="true" data-kt-date-picker-months-to-switch="1" data-kt-date-picker-position-to-input="left" data-kt-date-picker-selected-dates='["2025-01-15", "2025-01-16", "2025-01-17", "2025-01-18", "2025-01-19", "2025-01-20", "2025-01-21", "2025-01-22", "2025-01-23", "2025-01-24", "2025-01-25", "2025-01-26", "2025-01-27", "2025-01-28", "2025-01-29", "2025-01-30", "2025-01-31"]' data-kt-date-picker-selected-month="0" data-kt-date-picker-selected-year="2025" data-kt-date-picker-selection-dates-mode="multiple-ranged" data-kt-date-picker-type="multiple" id="validity-plain" placeholder="Select validity period" readonly="" type="text" value="2025-01-15 — 2025-01-31">
+                </input>
+               </div>
+              </div>
+             </div>
+             <div class="flex items-baseline flex-wrap lg:flex-nowrap gap-2.5">
+              <label class="kt-form-label max-w-56">
                Email
               </label>
               <input class="kt-input" type="text" value="jason@studio.io"/>
+             </div>
+             <div class="flex items-baseline flex-wrap lg:flex-nowrap gap-2.5">
+              <label class="kt-form-label max-w-56">
+               Theme Color
+              </label>
+              <div class="grow">
+               <div class="kt-input">
+                <input class="grow" data-kt-color-picker="true" data-kt-color-picker-default="#4CAF50" data-kt-color-picker-input-mode="true" id="theme-color-picker" placeholder="Select theme color" type="text" value="#4CAF50">
+                </input>
+               </div>
+              </div>
+             </div>
+             <div class="flex items-baseline flex-wrap lg:flex-nowrap gap-2.5">
+              <label class="kt-form-label max-w-56">
+               Documents
+              </label>
+              <div class="grow">
+               <form action="#" class="file-upload" data-kt-dropzone="true" method="POST">
+                <div class="dropzone dropzone-clickable" data-kt-dropzone-accepted-files=".jpeg,.jpg,.png,.gif,.webp" data-kt-dropzone-max-filesize="2" data-kt-dropzone-url="upload/">
+                 <div class="dropzone-message">
+                  <div class="dropzone-message-icon">
+                   <i class="ki-filled ki-cloud-add">
+                   </i>
+                  </div>
+                  <div class="dropzone-message-text">
+                   <span class="dropzone-message-title">
+                    Choose a file or drag & drop here.
+                   </span>
+                   <span class="dropzone-message-desc">
+                    JPEG, PNG, GIF, WebP, up to 2 MB.
+                   </span>
+                  </div>
+                  <button class="kt-btn kt-btn-sm kt-btn-primary dropzone-browse-btn" type="button">
+                   Browse File
+                  </button>
+                 </div>
+                </div>
+                <div class="file-upload-list hidden">
+                 <div class="dropzone-previews">
+                 </div>
+                </div>
+               </form>
+              </div>
+             </div>
+             <div class="flex items-baseline flex-wrap lg:flex-nowrap gap-2.5">
+              <label class="kt-form-label max-w-56">
+               Bio
+              </label>
+              <div class="grow">
+               <textarea class="kt-input min-h-[200px]" id="settings-bio-editor" placeholder="Write a short bio..." rows="6"></textarea>
+              </div>
              </div>
              <div class="flex items-baseline flex-wrap lg:flex-nowrap gap-2.5">
               <label class="kt-form-label max-w-56">
@@ -4084,15 +4192,595 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
               <label class="kt-form-label max-w-56">
                Country
               </label>
-              <select class="kt-select">
-               <option>
+              <select class="kt-select {class if class else ''}" data-kt-select="true" data-kt-select-config='{
+		"optionsClass": "kt-scrollable overflow-auto max-h-[250px]",
+		"displayTemplate": "&lt;div class=\"flex items-center leading-none gap-2\"&gt;{{flag}}&lt;span class=\"text-foreground\"&gt;{{text}}&lt;/span&gt;&lt;/div&gt;",
+		"optionTemplate": "&lt;div class=\"flex items-center leading-none gap-2\"&gt;{{flag}} &lt;span class=\"text-foreground\"&gt;{{text}}&lt;/span&gt;&lt;/div&gt;&lt;svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"size-3.5 ms-auto hidden text-primary kt-select-option-selected:block\"&gt;&lt;path d=\"M20 6 9 17l-5-5\"/&gt;&lt;/svg&gt;&lt;/div&gt;"
+	}' data-kt-select-enable-search="true" data-kt-select-placeholder="Select a country..." data-kt-select-search-placeholder="Search...">
+               <option data-kt-select-option='{"flag": "🇦🇫"}' value="Afghanistan">
+                Afghanistan
+               </option>
+               <option data-kt-select-option='{"flag": "🇦🇱"}' value="Albania">
+                Albania
+               </option>
+               <option data-kt-select-option='{"flag": "🇩🇿"}' value="Algeria">
+                Algeria
+               </option>
+               <option data-kt-select-option='{"flag": "🇦🇩"}' value="Andorra">
+                Andorra
+               </option>
+               <option data-kt-select-option='{"flag": "🇦🇴"}' value="Angola">
+                Angola
+               </option>
+               <option data-kt-select-option='{"flag": "🇦🇬"}' value="Antigua and Barbuda">
+                Antigua and Barbuda
+               </option>
+               <option data-kt-select-option='{"flag": "🇦🇷"}' value="Argentina">
+                Argentina
+               </option>
+               <option data-kt-select-option='{"flag": "🇦🇲"}' value="Armenia">
+                Armenia
+               </option>
+               <option data-kt-select-option='{"flag": "🇦🇺"}' value="Australia">
+                Australia
+               </option>
+               <option data-kt-select-option='{"flag": "🇦🇹"}' value="Austria">
+                Austria
+               </option>
+               <option data-kt-select-option='{"flag": "🇦🇿"}' value="Azerbaijan">
+                Azerbaijan
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇸"}' value="Bahamas">
+                Bahamas
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇭"}' value="Bahrain">
+                Bahrain
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇩"}' value="Bangladesh">
+                Bangladesh
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇧"}' value="Barbados">
+                Barbados
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇾"}' value="Belarus">
+                Belarus
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇪"}' value="Belgium">
+                Belgium
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇿"}' value="Belize">
+                Belize
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇯"}' value="Benin">
+                Benin
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇹"}' value="Bhutan">
+                Bhutan
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇴"}' value="Bolivia">
+                Bolivia
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇦"}' value="Bosnia and Herzegovina">
+                Bosnia and Herzegovina
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇼"}' value="Botswana">
+                Botswana
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇷"}' value="Brazil">
+                Brazil
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇳"}' value="Brunei">
+                Brunei
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇬"}' value="Bulgaria">
+                Bulgaria
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇫"}' value="Burkina Faso">
+                Burkina Faso
+               </option>
+               <option data-kt-select-option='{"flag": "🇧🇮"}' value="Burundi">
+                Burundi
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇻"}' value="Cabo Verde">
+                Cabo Verde
+               </option>
+               <option data-kt-select-option='{"flag": "🇰🇭"}' value="Cambodia">
+                Cambodia
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇲"}' value="Cameroon">
+                Cameroon
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇦"}' value="Canada">
+                Canada
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇫"}' value="Central African Republic">
+                Central African Republic
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇩"}' value="Chad">
+                Chad
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇱"}' value="Chile">
+                Chile
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇳"}' value="China">
+                China
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇴"}' value="Colombia">
+                Colombia
+               </option>
+               <option data-kt-select-option='{"flag": "🇰🇲"}' value="Comoros">
+                Comoros
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇬"}' value="Congo (Congo-Brazzaville)">
+                Congo (Congo-Brazzaville)
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇷"}' value="Costa Rica">
+                Costa Rica
+               </option>
+               <option data-kt-select-option='{"flag": "🇭🇷"}' value="Croatia">
+                Croatia
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇺"}' value="Cuba">
+                Cuba
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇾"}' value="Cyprus">
+                Cyprus
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇿"}' value="Czechia">
+                Czechia
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇩"}' value="Democratic Republic of the Congo">
+                Democratic Republic of the Congo
+               </option>
+               <option data-kt-select-option='{"flag": "🇩🇰"}' value="Denmark">
+                Denmark
+               </option>
+               <option data-kt-select-option='{"flag": "🇩🇯"}' value="Djibouti">
+                Djibouti
+               </option>
+               <option data-kt-select-option='{"flag": "🇩🇲"}' value="Dominica">
+                Dominica
+               </option>
+               <option data-kt-select-option='{"flag": "🇩🇴"}' value="Dominican Republic">
+                Dominican Republic
+               </option>
+               <option data-kt-select-option='{"flag": "🇪🇨"}' value="Ecuador">
+                Ecuador
+               </option>
+               <option data-kt-select-option='{"flag": "🇪🇬"}' value="Egypt">
+                Egypt
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇻"}' value="El Salvador">
+                El Salvador
+               </option>
+               <option data-kt-select-option='{"flag": "🇬🇶"}' value="Equatorial Guinea">
+                Equatorial Guinea
+               </option>
+               <option data-kt-select-option='{"flag": "🇪🇷"}' value="Eritrea">
+                Eritrea
+               </option>
+               <option data-kt-select-option='{"flag": "🇪🇪"}' value="Estonia">
+                Estonia
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇿"}' value="Eswatini">
+                Eswatini
+               </option>
+               <option data-kt-select-option='{"flag": "🇪🇹"}' value="Ethiopia">
+                Ethiopia
+               </option>
+               <option data-kt-select-option='{"flag": "🇫🇯"}' value="Fiji">
+                Fiji
+               </option>
+               <option data-kt-select-option='{"flag": "🇫🇮"}' value="Finland">
+                Finland
+               </option>
+               <option data-kt-select-option='{"flag": "🇫🇷"}' value="France">
+                France
+               </option>
+               <option data-kt-select-option='{"flag": "🇬🇦"}' value="Gabon">
+                Gabon
+               </option>
+               <option data-kt-select-option='{"flag": "🇬🇲"}' value="Gambia">
+                Gambia
+               </option>
+               <option data-kt-select-option='{"flag": "🇬🇪"}' value="Georgia">
+                Georgia
+               </option>
+               <option data-kt-select-option='{"flag": "🇩🇪"}' value="Germany">
+                Germany
+               </option>
+               <option data-kt-select-option='{"flag": "🇬🇭"}' value="Ghana">
+                Ghana
+               </option>
+               <option data-kt-select-option='{"flag": "🇬🇷"}' value="Greece">
+                Greece
+               </option>
+               <option data-kt-select-option='{"flag": "🇬🇩"}' value="Grenada">
+                Grenada
+               </option>
+               <option data-kt-select-option='{"flag": "🇬🇹"}' value="Guatemala">
+                Guatemala
+               </option>
+               <option data-kt-select-option='{"flag": "🇬🇳"}' value="Guinea">
+                Guinea
+               </option>
+               <option data-kt-select-option='{"flag": "🇬🇼"}' value="Guinea-Bissau">
+                Guinea-Bissau
+               </option>
+               <option data-kt-select-option='{"flag": "🇬🇾"}' value="Guyana">
+                Guyana
+               </option>
+               <option data-kt-select-option='{"flag": "🇭🇹"}' value="Haiti">
+                Haiti
+               </option>
+               <option data-kt-select-option='{"flag": "🇭🇳"}' value="Honduras">
+                Honduras
+               </option>
+               <option data-kt-select-option='{"flag": "🇭🇺"}' value="Hungary">
+                Hungary
+               </option>
+               <option data-kt-select-option='{"flag": "🇮🇸"}' value="Iceland">
+                Iceland
+               </option>
+               <option data-kt-select-option='{"flag": "🇮🇳"}' value="India">
+                India
+               </option>
+               <option data-kt-select-option='{"flag": "🇮🇩"}' value="Indonesia">
+                Indonesia
+               </option>
+               <option data-kt-select-option='{"flag": "🇮🇷"}' value="Iran">
+                Iran
+               </option>
+               <option data-kt-select-option='{"flag": "🇮🇶"}' value="Iraq">
+                Iraq
+               </option>
+               <option data-kt-select-option='{"flag": "🇮🇪"}' value="Ireland">
+                Ireland
+               </option>
+               <option data-kt-select-option='{"flag": "🇮🇱"}' value="Israel">
+                Israel
+               </option>
+               <option data-kt-select-option='{"flag": "🇮🇹"}' value="Italy">
+                Italy
+               </option>
+               <option data-kt-select-option='{"flag": "🇯🇲"}' value="Jamaica">
+                Jamaica
+               </option>
+               <option data-kt-select-option='{"flag": "🇯🇵"}' value="Japan">
+                Japan
+               </option>
+               <option data-kt-select-option='{"flag": "🇯🇴"}' value="Jordan">
+                Jordan
+               </option>
+               <option data-kt-select-option='{"flag": "🇰🇿"}' value="Kazakhstan">
+                Kazakhstan
+               </option>
+               <option data-kt-select-option='{"flag": "🇰🇪"}' value="Kenya">
+                Kenya
+               </option>
+               <option data-kt-select-option='{"flag": "🇰🇮"}' value="Kiribati">
+                Kiribati
+               </option>
+               <option data-kt-select-option='{"flag": "🇰🇼"}' value="Kuwait">
+                Kuwait
+               </option>
+               <option data-kt-select-option='{"flag": "🇰🇬"}' value="Kyrgyzstan">
+                Kyrgyzstan
+               </option>
+               <option data-kt-select-option='{"flag": "🇱🇦"}' value="Laos">
+                Laos
+               </option>
+               <option data-kt-select-option='{"flag": "🇱🇻"}' value="Latvia">
+                Latvia
+               </option>
+               <option data-kt-select-option='{"flag": "🇱🇧"}' value="Lebanon">
+                Lebanon
+               </option>
+               <option data-kt-select-option='{"flag": "🇱🇸"}' value="Lesotho">
+                Lesotho
+               </option>
+               <option data-kt-select-option='{"flag": "🇱🇷"}' value="Liberia">
+                Liberia
+               </option>
+               <option data-kt-select-option='{"flag": "🇱🇾"}' value="Libya">
+                Libya
+               </option>
+               <option data-kt-select-option='{"flag": "🇱🇮"}' value="Liechtenstein">
+                Liechtenstein
+               </option>
+               <option data-kt-select-option='{"flag": "🇱🇹"}' value="Lithuania">
+                Lithuania
+               </option>
+               <option data-kt-select-option='{"flag": "🇱🇺"}' value="Luxembourg">
+                Luxembourg
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇬"}' value="Madagascar">
+                Madagascar
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇼"}' value="Malawi">
+                Malawi
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇾"}' value="Malaysia">
+                Malaysia
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇻"}' value="Maldives">
+                Maldives
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇱"}' value="Mali">
+                Mali
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇹"}' value="Malta">
+                Malta
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇭"}' value="Marshall Islands">
+                Marshall Islands
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇷"}' value="Mauritania">
+                Mauritania
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇺"}' value="Mauritius">
+                Mauritius
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇽"}' value="Mexico">
+                Mexico
+               </option>
+               <option data-kt-select-option='{"flag": "🇫🇲"}' value="Micronesia">
+                Micronesia
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇩"}' value="Moldova">
+                Moldova
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇨"}' value="Monaco">
+                Monaco
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇳"}' value="Mongolia">
+                Mongolia
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇪"}' value="Montenegro">
+                Montenegro
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇦"}' value="Morocco">
+                Morocco
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇿"}' value="Mozambique">
+                Mozambique
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇲"}' value="Myanmar">
+                Myanmar
+               </option>
+               <option data-kt-select-option='{"flag": "🇳🇦"}' value="Namibia">
+                Namibia
+               </option>
+               <option data-kt-select-option='{"flag": "🇳🇷"}' value="Nauru">
+                Nauru
+               </option>
+               <option data-kt-select-option='{"flag": "🇳🇵"}' value="Nepal">
+                Nepal
+               </option>
+               <option data-kt-select-option='{"flag": "🇳🇱"}' value="Netherlands">
+                Netherlands
+               </option>
+               <option data-kt-select-option='{"flag": "🇳🇿"}' value="New Zealand">
+                New Zealand
+               </option>
+               <option data-kt-select-option='{"flag": "🇳🇮"}' value="Nicaragua">
+                Nicaragua
+               </option>
+               <option data-kt-select-option='{"flag": "🇳🇪"}' value="Niger">
+                Niger
+               </option>
+               <option data-kt-select-option='{"flag": "🇳🇬"}' value="Nigeria">
+                Nigeria
+               </option>
+               <option data-kt-select-option='{"flag": "🇰🇵"}' value="North Korea">
+                North Korea
+               </option>
+               <option data-kt-select-option='{"flag": "🇲🇰"}' value="North Macedonia">
+                North Macedonia
+               </option>
+               <option data-kt-select-option='{"flag": "🇳🇴"}' value="Norway">
+                Norway
+               </option>
+               <option data-kt-select-option='{"flag": "🇴🇲"}' value="Oman">
+                Oman
+               </option>
+               <option data-kt-select-option='{"flag": "🇵🇰"}' value="Pakistan">
+                Pakistan
+               </option>
+               <option data-kt-select-option='{"flag": "🇵🇼"}' value="Palau">
+                Palau
+               </option>
+               <option data-kt-select-option='{"flag": "🇵🇸"}' value="Palestine">
+                Palestine
+               </option>
+               <option data-kt-select-option='{"flag": "🇵🇦"}' value="Panama">
+                Panama
+               </option>
+               <option data-kt-select-option='{"flag": "🇵🇬"}' value="Papua New Guinea">
+                Papua New Guinea
+               </option>
+               <option data-kt-select-option='{"flag": "🇵🇾"}' value="Paraguay">
+                Paraguay
+               </option>
+               <option data-kt-select-option='{"flag": "🇵🇪"}' value="Peru">
+                Peru
+               </option>
+               <option data-kt-select-option='{"flag": "🇵🇭"}' value="Philippines">
+                Philippines
+               </option>
+               <option data-kt-select-option='{"flag": "🇵🇱"}' value="Poland">
+                Poland
+               </option>
+               <option data-kt-select-option='{"flag": "🇵🇹"}' value="Portugal">
+                Portugal
+               </option>
+               <option data-kt-select-option='{"flag": "🇶🇦"}' value="Qatar">
+                Qatar
+               </option>
+               <option data-kt-select-option='{"flag": "🇷🇴"}' value="Romania">
+                Romania
+               </option>
+               <option data-kt-select-option='{"flag": "🇷🇺"}' value="Russia">
+                Russia
+               </option>
+               <option data-kt-select-option='{"flag": "🇷🇼"}' value="Rwanda">
+                Rwanda
+               </option>
+               <option data-kt-select-option='{"flag": "🇰🇳"}' value="Saint Kitts and Nevis">
+                Saint Kitts and Nevis
+               </option>
+               <option data-kt-select-option='{"flag": "🇱🇨"}' value="Saint Lucia">
+                Saint Lucia
+               </option>
+               <option data-kt-select-option='{"flag": "🇻🇨"}' value="Saint Vincent and the Grenadines">
+                Saint Vincent and the Grenadines
+               </option>
+               <option data-kt-select-option='{"flag": "🇼🇸"}' value="Samoa">
+                Samoa
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇲"}' value="San Marino">
+                San Marino
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇹"}' value="Sao Tome and Principe">
+                Sao Tome and Principe
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇦"}' value="Saudi Arabia">
+                Saudi Arabia
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇳"}' value="Senegal">
+                Senegal
+               </option>
+               <option data-kt-select-option='{"flag": "🇷🇸"}' value="Serbia">
+                Serbia
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇨"}' value="Seychelles">
+                Seychelles
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇱"}' value="Sierra Leone">
+                Sierra Leone
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇬"}' value="Singapore">
+                Singapore
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇰"}' value="Slovakia">
+                Slovakia
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇮"}' value="Slovenia">
+                Slovenia
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇧"}' value="Solomon Islands">
+                Solomon Islands
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇴"}' value="Somalia">
+                Somalia
+               </option>
+               <option data-kt-select-option='{"flag": "🇿🇦"}' value="South Africa">
+                South Africa
+               </option>
+               <option data-kt-select-option='{"flag": "🇰🇷"}' value="South Korea">
+                South Korea
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇸"}' value="South Sudan">
+                South Sudan
+               </option>
+               <option data-kt-select-option='{"flag": "🇪🇸"}' value="Spain">
                 Spain
                </option>
-               <option>
-                Option 2
+               <option data-kt-select-option='{"flag": "🇱🇰"}' value="Sri Lanka">
+                Sri Lanka
                </option>
-               <option>
-                Option 3
+               <option data-kt-select-option='{"flag": "🇸🇩"}' value="Sudan">
+                Sudan
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇷"}' value="Suriname">
+                Suriname
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇪"}' value="Sweden">
+                Sweden
+               </option>
+               <option data-kt-select-option='{"flag": "🇨🇭"}' value="Switzerland">
+                Switzerland
+               </option>
+               <option data-kt-select-option='{"flag": "🇸🇾"}' value="Syria">
+                Syria
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇼"}' value="Taiwan">
+                Taiwan
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇯"}' value="Tajikistan">
+                Tajikistan
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇿"}' value="Tanzania">
+                Tanzania
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇭"}' value="Thailand">
+                Thailand
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇱"}' value="Timor-Leste">
+                Timor-Leste
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇬"}' value="Togo">
+                Togo
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇴"}' value="Tonga">
+                Tonga
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇹"}' value="Trinidad and Tobago">
+                Trinidad and Tobago
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇳"}' value="Tunisia">
+                Tunisia
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇷"}' value="Turkey">
+                Turkey
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇲"}' value="Turkmenistan">
+                Turkmenistan
+               </option>
+               <option data-kt-select-option='{"flag": "🇹🇻"}' value="Tuvalu">
+                Tuvalu
+               </option>
+               <option data-kt-select-option='{"flag": "🇺🇬"}' value="Uganda">
+                Uganda
+               </option>
+               <option data-kt-select-option='{"flag": "🇺🇦"}' value="Ukraine">
+                Ukraine
+               </option>
+               <option data-kt-select-option='{"flag": "🇦🇪"}' value="United Arab Emirates">
+                United Arab Emirates
+               </option>
+               <option data-kt-select-option='{"flag": "🇬🇧"}' value="United Kingdom">
+                United Kingdom
+               </option>
+               <option data-kt-select-option='{"flag": "🇺🇸"}' value="United States">
+                United States
+               </option>
+               <option data-kt-select-option='{"flag": "🇺🇾"}' value="Uruguay">
+                Uruguay
+               </option>
+               <option data-kt-select-option='{"flag": "🇺🇿"}' value="Uzbekistan">
+                Uzbekistan
+               </option>
+               <option data-kt-select-option='{"flag": "🇻🇺"}' value="Vanuatu">
+                Vanuatu
+               </option>
+               <option data-kt-select-option='{"flag": "🇻🇦"}' value="Vatican City">
+                Vatican City
+               </option>
+               <option data-kt-select-option='{"flag": "🇻🇪"}' value="Venezuela">
+                Venezuela
+               </option>
+               <option data-kt-select-option='{"flag": "🇻🇳"}' value="Vietnam">
+                Vietnam
+               </option>
+               <option data-kt-select-option='{"flag": "🇾🇪"}' value="Yemen">
+                Yemen
+               </option>
+               <option data-kt-select-option='{"flag": "🇿🇲"}' value="Zambia">
+                Zambia
+               </option>
+               <option data-kt-select-option='{"flag": "🇿🇼"}' value="Zimbabwe">
+                Zimbabwe
                </option>
               </select>
              </div>
@@ -4578,7 +5266,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
               <label class="kt-form-label max-w-56">
                Language
               </label>
-              <select class="kt-select">
+              <select class="kt-select" data-kt-select="true">
                <option>
                 American English
                </option>
@@ -4595,7 +5283,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                Time zone
               </label>
               <div class="grow">
-               <select class="kt-select">
+               <select class="kt-select" data-kt-select="true">
                 <option>
                  GMT -5:00 - Eastern Time(US & Canada)
                 </option>
@@ -4613,7 +5301,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                Currency
               </label>
               <div class="grow">
-               <select class="kt-select">
+               <select class="kt-select" data-kt-select="true">
                 <option>
                  United States Dollar (USD)
                 </option>
@@ -4883,9 +5571,8 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                Subscriptions
               </span>
               <label class="kt-label">
-               <input class="kt-checkbox" name="check" type="checkbox" value="1">
-                Automatically subscribe to tasks you create
-               </input>
+               <input class="kt-checkbox" name="check" type="checkbox" value="1"/>
+               Automatically subscribe to tasks you create
               </label>
              </div>
              <div class="flex justify-end">
@@ -4906,15 +5593,14 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
               <label class="kt-form-label flex items-center gap-1 max-w-56">
                Address
               </label>
-              <input class="kt-input" type="text" value="Avinguda Imaginària, 789">
-              </input>
+              <input class="kt-input" type="text" value="Avinguda Imaginària, 789"/>
              </div>
              <div class="flex items-baseline flex-wrap lg:flex-nowrap gap-2.5">
               <label class="kt-form-label max-w-56">
                Country
               </label>
               <div class="grow">
-               <select class="kt-select" name="kt-select">
+               <select class="kt-select" data-kt-select="true" name="kt-select">
                 <option value="1">
                  Spain
                 </option>
@@ -4931,8 +5617,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
               <label class="kt-form-label max-w-56">
                State
               </label>
-              <input class="kt-input" placeholder="State" type="text" value="">
-              </input>
+              <input class="kt-input" placeholder="State" type="text" value=""/>
              </div>
              <div class="flex items-baseline flex-wrap lg:flex-nowrap gap-2.5">
               <label class="kt-form-label max-w-56">
@@ -4945,6 +5630,18 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                Postcode
               </label>
               <input class="kt-input" type="text" value="08012"/>
+             </div>
+             <div class="flex items-baseline flex-wrap lg:flex-nowrap gap-2.5">
+              <label class="kt-form-label max-w-56">
+               Move-in Date
+              </label>
+              <div class="grow">
+               <div class="kt-input">
+                <i class="ki-filled ki-calendar">
+                </i>
+                <input class="grow" data-kt-date-picker="true" data-kt-date-picker-format="dd MMM yyyy" data-kt-date-picker-input-mode="true" data-kt-date-picker-position-to-input="left" id="move-in-date-picker" placeholder="Select move-in date" readonly="" type="text"/>
+               </div>
+              </div>
              </div>
              <div class="flex justify-end pt-2.5">
               <button class="kt-btn kt-btn-primary">
@@ -4972,13 +5669,28 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
               <label class="kt-form-label max-w-56 text-foreground font-normal">
                API Key
               </label>
-              <label class="kt-input">
-               <input placeholder="Right icon" type="text" value="abc123xyz456sample789key000"/>
-               <button class="kt-btn kt-btn-icon kt-btn-dim -me-2">
-                <i class="ki-filled ki-copy">
-                </i>
-               </button>
-              </label>
+              <div class="grow space-y-2.5">
+               <div class="kt-input">
+                <input id="manage-api-key-input" placeholder="Right icon" type="text" value="abc123xyz456sample789key000"/>
+                <button aria-label="Copy API key" class="kt-btn kt-btn-icon kt-btn-dim -me-2" id="manage-api-key-copy-btn" type="button">
+                 <i class="ki-filled ki-copy">
+                 </i>
+                </button>
+               </div>
+               <div class="flex items-center gap-2">
+                <button class="kt-btn kt-btn-sm kt-btn-outline" id="manage-api-docs-copy-btn" type="button">
+                 <i class="ki-filled ki-copy">
+                 </i>
+                 Copy docs link
+                </button>
+                <span class="text-xs text-secondary-foreground" id="manage-api-docs-link">
+                 https://keenthemes.com/metronic/tailwind/docs
+                </span>
+               </div>
+               <p class="text-xs text-secondary-foreground" id="manage-api-copy-feedback">
+                Click a button to copy value.
+               </p>
+              </div>
              </div>
              <div class="flex items-center flex-wrap sm:flex-nowrap justify-between grow border border-border rounded-xl gap-2 p-5 rtl:[background-position:-195px_-85px] [background-position:195px_-85px] bg-no-repeat bg-[length:650px] user-access-bg">
               <div class="flex items-center gap-4">
@@ -5032,6 +5744,43 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
              </p>
             </div>
            </div>
+           <script>
+            (function () {
+		var keyInput = document.getElementById('manage-api-key-input');
+		var keyBtn = document.getElementById('manage-api-key-copy-btn');
+		var docsText = document.getElementById('manage-api-docs-link');
+		var docsBtn = document.getElementById('manage-api-docs-copy-btn');
+		var feedback = document.getElementById('manage-api-copy-feedback');
+
+		if (!navigator.clipboard || !keyInput || !keyBtn || !docsText || !docsBtn || !feedback) return;
+
+		function setFeedback(text) {
+			feedback.textContent = text;
+		}
+
+		keyBtn.addEventListener('click', function () {
+			navigator.clipboard
+				.writeText(keyInput.value)
+				.then(function () {
+					setFeedback('API key copied.');
+				})
+				.catch(function () {
+					setFeedback('Copy failed.');
+				});
+		});
+
+		docsBtn.addEventListener('click', function () {
+			navigator.clipboard
+				.writeText(docsText.textContent || '')
+				.then(function () {
+					setFeedback('Docs link copied.');
+				})
+				.catch(function () {
+					setFeedback('Copy failed.');
+				});
+		});
+	})();
+           </script>
            <div class="kt-card">
             <div class="kt-card-header" id="external_services_integrations">
              <h3 class="kt-card-title">
@@ -5228,7 +5977,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
       <div class="flex flex-col md:flex-row justify-center md:justify-between items-center gap-3 py-5">
        <div class="flex order-2 md:order-1 gap-2 font-normal text-sm">
         <span class="text-secondary-foreground">
-         2025©
+         2026©
         </span>
         <a class="text-secondary-foreground hover:text-primary" href="https://keenthemes.com">
          Keenthemes Inc.
@@ -6205,7 +6954,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option selected="">
           Owner
          </option>
@@ -6229,7 +6978,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option>
           Owner
          </option>
@@ -6253,7 +7002,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option>
           Owner
          </option>
@@ -6371,7 +7120,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option selected="">
           Owner
          </option>
@@ -6395,7 +7144,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option>
           Owner
          </option>
@@ -6419,7 +7168,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option>
           Owner
          </option>
@@ -6584,6 +7333,12 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
   <script src="assets/vendors/apexcharts/apexcharts.min.js">
   </script>
   <script src="assets/vendors/leaflet/leaflet.bundle.js">
+  </script>
+  <script src="assets/vendors/dropzone/dropzone.js">
+  </script>
+  <script src="assets/vendors/tinymce/tinymce.min.js">
+  </script>
+  <script src="assets/js/pages/account/settings-form-editor.js">
   </script>
   <script src="assets/js/widgets/general.js">
   </script>

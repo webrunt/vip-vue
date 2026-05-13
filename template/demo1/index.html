@@ -1,6 +1,6 @@
 <!--
 Product: Metronic is a toolkit of UI components built with Tailwind CSS for developing scalable web applications quickly and efficiently
-Version: v9.2.0
+Version: v9.4.12
 Author: Keenthemes
 Contact: support@keenthemes.com
 Website: https://www.keenthemes.com
@@ -75,15 +75,17 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
    <!-- Sidebar -->
    <div class="kt-sidebar bg-background border-e border-e-border fixed top-0 bottom-0 z-20 hidden lg:flex flex-col items-stretch shrink-0 [--kt-drawer-enable:true] lg:[--kt-drawer-enable:false]" data-kt-drawer="true" data-kt-drawer-class="kt-drawer kt-drawer-start top-0 bottom-0" id="sidebar">
     <div class="kt-sidebar-header hidden lg:flex items-center relative justify-between px-3 lg:px-6 shrink-0" id="sidebar_header">
-     <a class="dark:hidden" href="html/demo1.html">
-      <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo.svg"/>
-      <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg"/>
-     </a>
-     <a class="hidden dark:block" href="html/demo1.html">
-      <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo-dark.svg"/>
-      <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg"/>
-     </a>
-     <button class="kt-btn kt-btn-outline kt-btn-icon size-[30px] absolute start-full top-2/4 -translate-x-2/4 -translate-y-2/4 rtl:translate-x-2/4" data-kt-toggle="body" data-kt-toggle-class="kt-sidebar-collapse" id="sidebar_toggle">
+     <div class="kt-sidebar-logo min-w-0">
+      <a class="dark:hidden" href="html/demo1.html">
+       <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo.svg"/>
+       <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg"/>
+      </a>
+      <a class="hidden dark:block" href="html/demo1.html">
+       <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo-dark.svg"/>
+       <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg"/>
+      </a>
+     </div>
+     <button class="kt-btn kt-btn-outline kt-btn-icon size-[30px] absolute start-full top-2/4 z-40 -translate-x-2/4 -translate-y-2/4 rtl:translate-x-2/4" data-kt-toggle="body" data-kt-toggle-class="kt-sidebar-collapse" id="sidebar_toggle">
       <i class="ki-filled ki-black-left-line kt-toggle-active:rotate-180 transition-all duration-300 rtl:translate rtl:rotate-180 rtl:kt-toggle-active:rotate-0">
       </i>
      </button>
@@ -746,6 +748,15 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
             </a>
            </div>
            <div class="kt-menu-item">
+            <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[5px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/account/members/team-members-datatable.html" tabindex="0">
+             <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
+             </span>
+             <span class="kt-menu-title text-2sm font-normal text-foreground kt-menu-item-active:text-primary kt-menu-item-active:font-semibold kt-menu-link-hover:!text-primary">
+              Team Members (DataTables)
+             </span>
+            </a>
+           </div>
+           <div class="kt-menu-item">
             <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[5px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/account/members/import-members.html" tabindex="0">
              <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
              </span>
@@ -1339,6 +1350,15 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
          <div class="kt-menu-item">
+          <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[14px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/authentication/welcome-message-2.html" tabindex="0">
+           <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
+           </span>
+           <span class="kt-menu-title text-2sm font-normal text-foreground kt-menu-item-active:text-primary kt-menu-item-active:font-semibold kt-menu-link-hover:!text-primary">
+            Welcome Message 2
+           </span>
+          </a>
+         </div>
+         <div class="kt-menu-item">
           <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[14px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/authentication/account-deactivated.html" tabindex="0">
            <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
            </span>
@@ -1523,6 +1543,17 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
+       </div>
+       <div class="kt-menu-item">
+        <a class="kt-menu-link gap-[10px] ps-[10px] pe-[10px] py-[6px] border border-transparent kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg" href="html/demo1/plugins/fullcalendar.html" tabindex="0">
+         <span class="kt-menu-icon items-start text-muted-foreground kt-menu-item-active:text-primary kt-menu-link-hover:!text-primary w-[20px]">
+          <i class="ki-filled ki-calendar-tick text-lg">
+          </i>
+         </span>
+         <span class="kt-menu-title text-sm font-medium text-foreground kt-menu-item-active:text-primary kt-menu-link-hover:!text-primary">
+          Project Planning
+         </span>
+        </a>
        </div>
        <div class="kt-menu-item">
         <div class="kt-menu-label border border-transparent gap-[10px] ps-[10px] pe-[10px] py-[6px]" href="" tabindex="0">
@@ -2371,6 +2402,13 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                  </a>
                 </div>
                 <div class="kt-menu-item">
+                 <a class="kt-menu-link" href="html/demo1/account/members/team-members-datatable.html" tabindex="0">
+                  <span class="kt-menu-title grow-0">
+                   Team Members (DataTables)
+                  </span>
+                 </a>
+                </div>
+                <div class="kt-menu-item">
                  <a class="kt-menu-link" href="html/demo1/account/members/import-members.html" tabindex="0">
                   <span class="kt-menu-title grow-0">
                    Import Members
@@ -3017,6 +3055,17 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                  </span>
                  <span class="kt-menu-title grow-0">
                   Welcome Message
+                 </span>
+                </a>
+               </div>
+               <div class="kt-menu-item">
+                <a class="kt-menu-link border border-transparent kt-menu-link-hover:!bg-background kt-menu-link-hover:border-border kt-menu-item-active:!bg-background kt-menu-item-active:border-border" href="html/demo1/authentication/welcome-message-2.html">
+                 <span class="kt-menu-icon">
+                  <i class="ki-filled ki-element-11">
+                  </i>
+                 </span>
+                 <span class="kt-menu-title grow-0">
+                  Welcome Message 2
                  </span>
                 </a>
                </div>
@@ -4931,7 +4980,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </div>
          </div>
          <div class="grid p-5 border-t border-t-border">
-          <a class="kt-btn kt-btn-outline justify-center" href="html/demo1/account/api-keys.html">
+          <a class="kt-btn kt-btn-outline justify-center" href="html/demo1/account/integrations.html">
            Go to Apps
           </a>
          </div>
@@ -5542,7 +5591,10 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
               Referrals only
              </span>
             </label>
-            <select class="kt-select w-28" name="kt-select">
+            <select class="kt-select w-36" data-kt-select="true" data-kt-select-placeholder="Select period" name="kt-select">
+             <option>
+              None
+             </option>
              <option value="1">
               1 month
              </option>
@@ -5552,7 +5604,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
              <option value="3">
               6 month
              </option>
-             <option selected="" value="4">
+             <option value="4">
               12 month
              </option>
             </select>
@@ -5642,14 +5694,14 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
             <div class="kt-input max-w-48">
              <i class="ki-filled ki-magnifier">
              </i>
-             <input placeholder="Search Teams" type="text">
+             <input data-kt-datatable-search="#kt_datatable_1" placeholder="Search Teams" type="text">
              </input>
             </div>
            </div>
            <div class="kt-card-table">
-            <div class="grid" data-kt-datatable="true" data-kt-datatable-page-size="5">
+            <div class="grid" data-kt-datatable="true" data-kt-datatable-page-size="5" id="teams_datatable">
              <div class="kt-scrollable-x-auto">
-              <table class="kt-table kt-table-border table-fixed" data-kt-datatable-table="true">
+              <table class="kt-table kt-table-border table-fixed" data-kt-datatable-table="true" id="kt_datatable_1">
                <thead>
                 <tr>
                  <th class="w-[50px]">
@@ -6675,7 +6727,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
              <div class="kt-card-footer justify-center md:justify-between flex-col md:flex-row gap-5 text-secondary-foreground text-sm font-medium">
               <div class="flex items-center gap-2 order-2 md:order-1">
                Show
-               <select class="kt-select w-16" data-kt-datatable-size="true" name="perpage">
+               <select class="kt-select w-16" data-kt-datatable-size="true" data-kt-select="" name="perpage">
                </select>
                per page
               </div>
@@ -6705,7 +6757,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
       <div class="flex flex-col md:flex-row justify-center md:justify-between items-center gap-3 py-5">
        <div class="flex order-2 md:order-1 gap-2 font-normal text-sm">
         <span class="text-secondary-foreground">
-         2025©
+         2026©
         </span>
         <a class="text-secondary-foreground hover:text-primary" href="https://keenthemes.com">
          Keenthemes Inc.
@@ -7679,7 +7731,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option selected="">
           Owner
          </option>
@@ -7703,7 +7755,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option>
           Owner
          </option>
@@ -7727,7 +7779,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option>
           Owner
          </option>
@@ -7844,7 +7896,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option selected="">
           Owner
          </option>
@@ -7868,7 +7920,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option>
           Owner
          </option>
@@ -7892,7 +7944,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option>
           Owner
          </option>

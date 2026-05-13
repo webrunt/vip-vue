@@ -1,6 +1,6 @@
 <!--
 Product: Metronic is a toolkit of UI components built with Tailwind CSS for developing scalable web applications quickly and efficiently
-Version: v9.2.0
+Version: v9.4.12
 Author: Keenthemes
 Contact: support@keenthemes.com
 Website: https://www.keenthemes.com
@@ -75,15 +75,17 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
    <!-- Sidebar -->
    <div class="kt-sidebar bg-background border-e border-e-border fixed top-0 bottom-0 z-20 hidden lg:flex flex-col items-stretch shrink-0 [--kt-drawer-enable:true] lg:[--kt-drawer-enable:false]" data-kt-drawer="true" data-kt-drawer-class="kt-drawer kt-drawer-start top-0 bottom-0" id="sidebar">
     <div class="kt-sidebar-header hidden lg:flex items-center relative justify-between px-3 lg:px-6 shrink-0" id="sidebar_header">
-     <a class="dark:hidden" href="html/demo1.html">
-      <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo.svg"/>
-      <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg"/>
-     </a>
-     <a class="hidden dark:block" href="html/demo1.html">
-      <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo-dark.svg"/>
-      <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg"/>
-     </a>
-     <button class="kt-btn kt-btn-outline kt-btn-icon size-[30px] absolute start-full top-2/4 -translate-x-2/4 -translate-y-2/4 rtl:translate-x-2/4" data-kt-toggle="body" data-kt-toggle-class="kt-sidebar-collapse" id="sidebar_toggle">
+     <div class="kt-sidebar-logo min-w-0">
+      <a class="dark:hidden" href="html/demo1.html">
+       <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo.svg"/>
+       <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg"/>
+      </a>
+      <a class="hidden dark:block" href="html/demo1.html">
+       <img class="default-logo min-h-[22px] max-w-none" src="assets/media/app/default-logo-dark.svg"/>
+       <img class="small-logo min-h-[22px] max-w-none" src="assets/media/app/mini-logo.svg"/>
+      </a>
+     </div>
+     <button class="kt-btn kt-btn-outline kt-btn-icon size-[30px] absolute start-full top-2/4 z-40 -translate-x-2/4 -translate-y-2/4 rtl:translate-x-2/4" data-kt-toggle="body" data-kt-toggle-class="kt-sidebar-collapse" id="sidebar_toggle">
       <i class="ki-filled ki-black-left-line kt-toggle-active:rotate-180 transition-all duration-300 rtl:translate rtl:rotate-180 rtl:kt-toggle-active:rotate-0">
       </i>
      </button>
@@ -746,6 +748,15 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
             </a>
            </div>
            <div class="kt-menu-item">
+            <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[5px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/account/members/team-members-datatable.html" tabindex="0">
+             <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
+             </span>
+             <span class="kt-menu-title text-2sm font-normal text-foreground kt-menu-item-active:text-primary kt-menu-item-active:font-semibold kt-menu-link-hover:!text-primary">
+              Team Members (DataTables)
+             </span>
+            </a>
+           </div>
+           <div class="kt-menu-item">
             <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[5px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/account/members/import-members.html" tabindex="0">
              <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
              </span>
@@ -1339,6 +1350,15 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
          <div class="kt-menu-item">
+          <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[14px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/authentication/welcome-message-2.html" tabindex="0">
+           <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
+           </span>
+           <span class="kt-menu-title text-2sm font-normal text-foreground kt-menu-item-active:text-primary kt-menu-item-active:font-semibold kt-menu-link-hover:!text-primary">
+            Welcome Message 2
+           </span>
+          </a>
+         </div>
+         <div class="kt-menu-item">
           <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[14px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/authentication/account-deactivated.html" tabindex="0">
            <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
            </span>
@@ -1523,6 +1543,17 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
+       </div>
+       <div class="kt-menu-item">
+        <a class="kt-menu-link gap-[10px] ps-[10px] pe-[10px] py-[6px] border border-transparent kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg" href="html/demo1/plugins/fullcalendar.html" tabindex="0">
+         <span class="kt-menu-icon items-start text-muted-foreground kt-menu-item-active:text-primary kt-menu-link-hover:!text-primary w-[20px]">
+          <i class="ki-filled ki-calendar-tick text-lg">
+          </i>
+         </span>
+         <span class="kt-menu-title text-sm font-medium text-foreground kt-menu-item-active:text-primary kt-menu-link-hover:!text-primary">
+          Project Planning
+         </span>
+        </a>
        </div>
        <div class="kt-menu-item">
         <div class="kt-menu-label border border-transparent gap-[10px] ps-[10px] pe-[10px] py-[6px]" href="" tabindex="0">
@@ -1866,12 +1897,12 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
         </div>
         <div class="kt-card-content space-y-5 p-5 kt-scrollable-y-auto">
          <div class="kt-card">
-          <div class="kt-card-content p-2 pe-5 flex items-center justify-between gap-3.5">
-           <div class="kt-card flex items-center justify-center bg-accent/50 h-[70px] w-[90px] shadow-none">
+          <div class="kt-card-content p-2 pe-5 flex sm:items-center justify-between gap-3.5">
+           <div class="kt-card flex items-center justify-center bg-accent/50 h-[70px] w-[90px] shrink-0 shadow-none">
             <img alt="img" class="h-[70px]" src="assets/media/store/client/600x600/11.png"/>
            </div>
            <div class="flex flex-col gap-2 w-full">
-            <div class="flex items-center justify-between gap-2.5 -mt-1">
+            <div class="flex items-center flex-wrap justify-between gap-2.5 -mt-1">
              <a class="hover:text-primary text-sm font-medium text-mono leading-5.5" href="#">
               Cloud Shift Lightweight Runner Pro Edition
              </a>
@@ -1890,9 +1921,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                </span>
               </span>
              </div>
-             <div class="flex items-center gap-2.5">
-              <span class="text-xs font-normal text-secondary-foreground line-through">
-              </span>
+             <div class="flex items-center flex-wrap gap-2.5">
               <span class="text-sm font-medium text-mono">
                $120.00
               </span>
@@ -1911,12 +1940,12 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </div>
          </div>
          <div class="kt-card">
-          <div class="kt-card-content p-2 pe-5 flex items-center justify-between gap-3.5">
-           <div class="kt-card flex items-center justify-center bg-accent/50 h-[70px] w-[90px] shadow-none">
+          <div class="kt-card-content p-2 pe-5 flex sm:items-center justify-between gap-3.5">
+           <div class="kt-card flex items-center justify-center bg-accent/50 h-[70px] w-[90px] shrink-0 shadow-none">
             <img alt="img" class="h-[70px]" src="assets/media/store/client/600x600/12.png"/>
            </div>
            <div class="flex flex-col gap-2 w-full">
-            <div class="flex items-center justify-between gap-2.5 -mt-1">
+            <div class="flex items-center flex-wrap justify-between gap-2.5 -mt-1">
              <a class="hover:text-primary text-sm font-medium text-mono leading-5.5" href="#">
               Titan Edge High Impact Stability Lightweight..
              </a>
@@ -1935,9 +1964,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                </span>
               </span>
              </div>
-             <div class="flex items-center gap-2.5">
-              <span class="text-xs font-normal text-secondary-foreground line-through">
-              </span>
+             <div class="flex items-center flex-wrap gap-2.5">
               <span class="text-sm font-medium text-mono">
                $99.00
               </span>
@@ -1956,16 +1983,16 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </div>
          </div>
          <div class="kt-card">
-          <div class="kt-card-content p-2 pe-5 flex items-center justify-between gap-3.5">
-           <div class="kt-card flex items-center justify-center bg-accent/50 h-[70px] w-[90px] shadow-none">
+          <div class="kt-card-content p-2 pe-5 flex sm:items-center justify-between gap-3.5">
+           <div class="kt-card flex items-center justify-center bg-accent/50 h-[70px] w-[90px] shrink-0 shadow-none">
             <img alt="img" class="h-[70px]" src="assets/media/store/client/600x600/13.png"/>
            </div>
            <div class="flex flex-col gap-2 w-full">
-            <div class="flex items-center justify-between gap-2.5 -mt-1">
+            <div class="flex items-center flex-wrap justify-between gap-2.5 -mt-1">
              <a class="hover:text-primary text-sm font-medium text-mono leading-5.5" href="#">
               Wave Strike Dynamic Boost Sneaker
              </a>
-             <span class="kt-badge kt-badge-destructive kt-badge-sm uppercase">
+             <span class="kt-badge kt-badge-destructive kt-badge-sm uppercase shrink-0">
               save 25%
              </span>
             </div>
@@ -1983,9 +2010,9 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                </span>
               </span>
              </div>
-             <div class="flex items-center gap-2.5">
+             <div class="flex items-center flex-wrap gap-2.5">
               <span class="text-xs font-normal text-secondary-foreground line-through">
-               $179.00
+               {item.label}
               </span>
               <span class="text-sm font-medium text-mono">
                $144.00
@@ -2005,12 +2032,12 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </div>
          </div>
          <div class="kt-card">
-          <div class="kt-card-content p-2 pe-5 flex items-center justify-between gap-3.5">
-           <div class="kt-card flex items-center justify-center bg-accent/50 h-[70px] w-[90px] shadow-none">
+          <div class="kt-card-content p-2 pe-5 flex sm:items-center justify-between gap-3.5">
+           <div class="kt-card flex items-center justify-center bg-accent/50 h-[70px] w-[90px] shrink-0 shadow-none">
             <img alt="img" class="h-[70px]" src="assets/media/store/client/600x600/15.png"/>
            </div>
            <div class="flex flex-col gap-2 w-full">
-            <div class="flex items-center justify-between gap-2.5 -mt-1">
+            <div class="flex items-center flex-wrap justify-between gap-2.5 -mt-1">
              <a class="hover:text-primary text-sm font-medium text-mono leading-5.5" href="#">
               Cloud Shift Lightweight Runner Pro Edition
              </a>
@@ -2029,9 +2056,9 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                </span>
               </span>
              </div>
-             <div class="flex items-center gap-2.5">
+             <div class="flex items-center flex-wrap gap-2.5">
               <span class="text-xs font-normal text-secondary-foreground line-through">
-               $179.00
+               {item.label}
               </span>
               <span class="text-sm font-medium text-mono">
                $230.00
@@ -2081,12 +2108,12 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          </div>
          <div class="kt-card-content space-y-5 p-5 kt-scrollable-y-auto">
           <div class="kt-card">
-           <div class="kt-card-content p-2 pe-5 flex items-center w-full justify-between gap-3.5">
-            <div class="flex items-center gap-4">
+           <div class="kt-card-content p-2 pe-5 flex items-center flex-wrap w-full justify-between gap-3.5">
+            <div class="flex md:items-center gap-4">
              <div class="kt-card flex items-center justify-center bg-accent/50 h-[70px] w-[90px] shadow-none">
               <img alt="img" class="h-[70px]" src="assets/media/store/client/600x600/11.png"/>
              </div>
-             <div class="flex flex-col justify-center gap-2.5 -mt-1">
+             <div class="flex flex-col sm:justify-end gap-2.5 -mt-1">
               <a class="hover:text-primary text-sm font-medium text-mono leading-5.5" href="#">
                Cloud Shift Lightweight Runner Pro Edition
               </a>
@@ -2100,9 +2127,9 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
               </div>
              </div>
             </div>
-            <div class="flex justify-center flex-col gap-3">
-             <div class="flex items-center justify-end gap-2">
-              <select class="kt-select kt-select-sm w-[50px] bg-background" name="kt-select">
+            <div class="flex sm:justify-end flex-col gap-3">
+             <div class="flex items-center sm:justify-end gap-2">
+              <select class="kt-select kt-select-sm w-[60px] bg-background" data-kt-select="true" data-kt-select-dropdown-container="body" name="kt-select">
                <option selected="" value="1">
                 1
                </option>
@@ -2121,7 +2148,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                </i>
               </button>
              </div>
-             <div class="flex items-center justify-end gap-3">
+             <div class="flex items-center sm:justify-end gap-3">
               <span class="text-sm font-semibold text-mono">
                $120.00
               </span>
@@ -2130,12 +2157,12 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
            </div>
           </div>
           <div class="kt-card">
-           <div class="kt-card-content p-2 pe-5 flex items-center w-full justify-between gap-3.5">
-            <div class="flex items-center gap-4">
+           <div class="kt-card-content p-2 pe-5 flex items-center flex-wrap w-full justify-between gap-3.5">
+            <div class="flex md:items-center gap-4">
              <div class="kt-card flex items-center justify-center bg-accent/50 h-[70px] w-[90px] shadow-none">
               <img alt="img" class="h-[70px]" src="assets/media/store/client/600x600/12.png"/>
              </div>
-             <div class="flex flex-col justify-center gap-2.5 -mt-1">
+             <div class="flex flex-col sm:justify-end gap-2.5 -mt-1">
               <a class="hover:text-primary text-sm font-medium text-mono leading-5.5" href="#">
                Titan Edge High Impact Stability Lightweight..
               </a>
@@ -2149,9 +2176,9 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
               </div>
              </div>
             </div>
-            <div class="flex justify-center flex-col gap-3">
-             <div class="flex items-center justify-end gap-2">
-              <select class="kt-select kt-select-sm w-[50px] bg-background" name="kt-select">
+            <div class="flex sm:justify-end flex-col gap-3">
+             <div class="flex items-center sm:justify-end gap-2">
+              <select class="kt-select kt-select-sm w-[60px] bg-background" data-kt-select="true" data-kt-select-dropdown-container="body" name="kt-select">
                <option selected="" value="1">
                 1
                </option>
@@ -2170,7 +2197,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                </i>
               </button>
              </div>
-             <div class="flex items-center justify-end gap-3">
+             <div class="flex items-center sm:justify-end gap-3">
               <span class="text-sm font-semibold text-mono">
                $99.00
               </span>
@@ -2179,12 +2206,12 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
            </div>
           </div>
           <div class="kt-card">
-           <div class="kt-card-content p-2 pe-5 flex items-center w-full justify-between gap-3.5">
-            <div class="flex items-center gap-4">
+           <div class="kt-card-content p-2 pe-5 flex items-center flex-wrap w-full justify-between gap-3.5">
+            <div class="flex md:items-center gap-4">
              <div class="kt-card flex items-center justify-center bg-accent/50 h-[70px] w-[90px] shadow-none">
               <img alt="img" class="h-[70px]" src="assets/media/store/client/600x600/13.png"/>
              </div>
-             <div class="flex flex-col justify-center gap-2.5 -mt-1">
+             <div class="flex flex-col sm:justify-end gap-2.5 -mt-1">
               <a class="hover:text-primary text-sm font-medium text-mono leading-5.5" href="#">
                Cloud Shift Lightweight Runner Pro Edition
               </a>
@@ -2198,9 +2225,9 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
               </div>
              </div>
             </div>
-            <div class="flex justify-center flex-col gap-3">
-             <div class="flex items-center justify-end gap-2">
-              <select class="kt-select kt-select-sm w-[50px] bg-background" name="kt-select">
+            <div class="flex sm:justify-end flex-col gap-3">
+             <div class="flex items-center sm:justify-end gap-2">
+              <select class="kt-select kt-select-sm w-[60px] bg-background" data-kt-select="true" data-kt-select-dropdown-container="body" name="kt-select">
                <option selected="" value="1">
                 1
                </option>
@@ -2219,7 +2246,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                </i>
               </button>
              </div>
-             <div class="flex items-center justify-end gap-3">
+             <div class="flex items-center sm:justify-end gap-3">
               <span class="text-sm font-semibold text-mono">
                $120.00
               </span>
@@ -2228,12 +2255,12 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
            </div>
           </div>
           <div class="kt-card">
-           <div class="kt-card-content p-2 pe-5 flex items-center w-full justify-between gap-3.5">
-            <div class="flex items-center gap-4">
+           <div class="kt-card-content p-2 pe-5 flex items-center flex-wrap w-full justify-between gap-3.5">
+            <div class="flex md:items-center gap-4">
              <div class="kt-card flex items-center justify-center bg-accent/50 h-[70px] w-[90px] shadow-none">
               <img alt="img" class="h-[70px]" src="assets/media/store/client/600x600/15.png"/>
              </div>
-             <div class="flex flex-col justify-center gap-2.5 -mt-1">
+             <div class="flex flex-col sm:justify-end gap-2.5 -mt-1">
               <a class="hover:text-primary text-sm font-medium text-mono leading-5.5" href="#">
                Wave Strike Dynamic Boost Sneaker
               </a>
@@ -2250,9 +2277,9 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
               </div>
              </div>
             </div>
-            <div class="flex justify-center flex-col gap-3">
-             <div class="flex items-center justify-end gap-2">
-              <select class="kt-select kt-select-sm w-[50px] bg-background" name="kt-select">
+            <div class="flex sm:justify-end flex-col gap-3">
+             <div class="flex items-center sm:justify-end gap-2">
+              <select class="kt-select kt-select-sm w-[60px] bg-background" data-kt-select="true" data-kt-select-dropdown-container="body" name="kt-select">
                <option selected="" value="1">
                 1
                </option>
@@ -2271,7 +2298,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
                </i>
               </button>
              </div>
-             <div class="flex items-center justify-end gap-3">
+             <div class="flex items-center sm:justify-end gap-3">
               <span class="text-sm font-normal text-secondary-foreground line-through">
                $179.00
               </span>
@@ -2325,14 +2352,40 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          </button>
         </div>
         <div class="kt-card-content flex flex-col space-y-3 p-5 kt-scrollable-y-auto">
-         <div class="kt-card relative items-center justify-center bg-accent/50 mb-6.5 h-[280px] shadow-none">
-          <span class="kt-badge kt-badge-destructive kt-badge-sm absolute top-4 end-4 uppercase">
+         <div class="kt-card relative bg-accent/50 mb-6.5 h-[280px] shadow-none overflow-hidden" data-kt-carousel="true" data-kt-carousel-infinite-loop="true" tabindex="0">
+          <span class="kt-badge kt-badge-destructive kt-badge-sm absolute top-4 end-4 uppercase z-10">
            save 40%
           </span>
-          <img alt="" class="size-80" src="assets/media/store/client/600x600/1.png"/>
-          <div class="kt-card absolute items-center justify-center bg-background w-[75px] h-[45px] overflow-hidden rounded-sm bottom-4 end-4">
-           <img alt="" class="dark:hidden" src="assets/media/brand-logos/nike-light.svg"/>
-           <img alt="" class="hidden dark:block" src="assets/media/brand-logos/nike-dark.svg"/>
+          <div class="h-full flex overflow-x-auto scroll-smooth" data-kt-carousel-viewport="">
+           <div class="min-w-full shrink-0 h-full flex items-center justify-center" data-kt-carousel-item="">
+            <img alt="Product image 1" class="size-80" src="assets/media/store/client/600x600/1.png"/>
+           </div>
+           <div class="min-w-full shrink-0 h-full flex items-center justify-center" data-kt-carousel-item="">
+            <img alt="Product image 2" class="size-80" src="assets/media/store/client/600x600/2.png"/>
+           </div>
+           <div class="min-w-full shrink-0 h-full flex items-center justify-center" data-kt-carousel-item="">
+            <img alt="Product image 3" class="size-80" src="assets/media/store/client/600x600/3.png"/>
+           </div>
+          </div>
+          <button aria-label="Previous image" class="kt-btn kt-btn-sm kt-btn-icon kt-btn-mono absolute start-3 top-1/2 -translate-y-1/2 z-10" data-kt-carousel-prev="" type="button">
+           <i class="ki-filled ki-left">
+           </i>
+          </button>
+          <button aria-label="Next image" class="kt-btn kt-btn-sm kt-btn-icon kt-btn-mono absolute end-3 top-1/2 -translate-y-1/2 z-10" data-kt-carousel-next="" type="button">
+           <i class="ki-filled ki-right">
+           </i>
+          </button>
+          <div class="absolute bottom-4 start-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10" data-kt-carousel-pagination="">
+           <button aria-label="Go to image 1" class="size-2.5 rounded-full bg-mono/20 aria-[current=true]:bg-primary transition-colors" data-kt-carousel-pagination-item="" type="button">
+           </button>
+           <button aria-label="Go to image 2" class="size-2.5 rounded-full bg-mono/20 aria-[current=true]:bg-primary transition-colors" data-kt-carousel-pagination-item="" type="button">
+           </button>
+           <button aria-label="Go to image 3" class="size-2.5 rounded-full bg-mono/20 aria-[current=true]:bg-primary transition-colors" data-kt-carousel-pagination-item="" type="button">
+           </button>
+          </div>
+          <div class="kt-card absolute items-center justify-center bg-background w-[75px] h-[45px] overflow-hidden rounded-sm bottom-4 end-4 z-10">
+           <img alt="Nike logo light" class="dark:hidden" src="assets/media/brand-logos/nike-light.svg"/>
+           <img alt="Nike logo dark" class="hidden dark:block" src="assets/media/brand-logos/nike-dark.svg"/>
           </div>
          </div>
          <span class="text-base font-medium text-mono">
@@ -2379,37 +2432,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
             Rating
            </span>
            <div>
-            <div class="kt-rating">
-             <div class="kt-rating-label checked">
-              <i class="kt-rating-on ki-solid ki-star text-base leading-none">
-              </i>
-              <i class="kt-rating-off ki-outline ki-star text-base leading-none">
-              </i>
-             </div>
-             <div class="kt-rating-label checked">
-              <i class="kt-rating-on ki-solid ki-star text-base leading-none">
-              </i>
-              <i class="kt-rating-off ki-outline ki-star text-base leading-none">
-              </i>
-             </div>
-             <div class="kt-rating-label checked">
-              <i class="kt-rating-on ki-solid ki-star text-base leading-none">
-              </i>
-              <i class="kt-rating-off ki-outline ki-star text-base leading-none">
-              </i>
-             </div>
-             <div class="kt-rating-label checked">
-              <i class="kt-rating-on ki-solid ki-star text-base leading-none">
-              </i>
-              <i class="kt-rating-off ki-outline ki-star text-base leading-none">
-              </i>
-             </div>
-             <div class="kt-rating-label checked">
-              <i class="kt-rating-on ki-solid ki-star text-base leading-none">
-              </i>
-              <i class="kt-rating-off ki-outline ki-star text-base leading-none">
-              </i>
-             </div>
+            <div data-kt-rating="true" data-kt-rating-name="product_rating" data-kt-rating-value="5">
             </div>
            </div>
           </div>
@@ -2676,7 +2699,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          </span>
         </h3>
         <div class="flex items-center gap-2.5">
-         <select class="kt-select w-[175px] bg-background" name="kt-select">
+         <select class="kt-select w-[175px] bg-background" data-kt-select="true" name="kt-select">
           <option selected="" value="1">
            Price Hight to Low
           </option>
@@ -2727,8 +2750,34 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          <div class="kt-card">
           <div class="kt-card-content flex flex-col justify-between p-2.5 gap-4">
            <div class="mb-2.5">
-            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none">
+            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none" data-kt-context-menu="true" data-kt-context-menu-trigger="true">
              <img alt="" class="h-[180px] shrink-0 cursor-pointer" data-kt-drawer-toggle="#drawers_shop_product_details" src="assets/media/store/client/600x600/11.png"/>
+             <div class="kt-context-menu w-56 hidden" data-kt-context-menu-menu="true">
+              <ul class="kt-context-menu-sub">
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_product_details" type="button">
+                 Quick View
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_cart" type="button">
+                 Add to Cart
+                </button>
+               </li>
+               <li class="kt-context-menu-separator">
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Add to Wishlist
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Compare
+                </button>
+               </li>
+              </ul>
+             </div>
             </div>
             <a class="hover:text-primary text-sm font-medium text-mono px-2.5 leading-5.5 block" data-kt-drawer-toggle="#drawers_shop_product_details" href="#">
              Cloud Shift Lightweight Runner Pro Edition
@@ -2758,8 +2807,34 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          <div class="kt-card">
           <div class="kt-card-content flex flex-col justify-between p-2.5 gap-4">
            <div class="mb-2.5">
-            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none">
+            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none" data-kt-context-menu="true" data-kt-context-menu-trigger="true">
              <img alt="" class="h-[180px] shrink-0 cursor-pointer" data-kt-drawer-toggle="#drawers_shop_product_details" src="assets/media/store/client/600x600/12.png"/>
+             <div class="kt-context-menu w-56 hidden" data-kt-context-menu-menu="true">
+              <ul class="kt-context-menu-sub">
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_product_details" type="button">
+                 Quick View
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_cart" type="button">
+                 Add to Cart
+                </button>
+               </li>
+               <li class="kt-context-menu-separator">
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Add to Wishlist
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Compare
+                </button>
+               </li>
+              </ul>
+             </div>
             </div>
             <a class="hover:text-primary text-sm font-medium text-mono px-2.5 leading-5.5 block" data-kt-drawer-toggle="#drawers_shop_product_details" href="#">
              Titan Edge High Impact Stability Lightweight Trainers
@@ -2789,8 +2864,34 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          <div class="kt-card">
           <div class="kt-card-content flex flex-col justify-between p-2.5 gap-4">
            <div class="mb-2.5">
-            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none">
+            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none" data-kt-context-menu="true" data-kt-context-menu-trigger="true">
              <img alt="" class="h-[180px] shrink-0 cursor-pointer" data-kt-drawer-toggle="#drawers_shop_product_details" src="assets/media/store/client/600x600/13.png"/>
+             <div class="kt-context-menu w-56 hidden" data-kt-context-menu-menu="true">
+              <ul class="kt-context-menu-sub">
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_product_details" type="button">
+                 Quick View
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_cart" type="button">
+                 Add to Cart
+                </button>
+               </li>
+               <li class="kt-context-menu-separator">
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Add to Wishlist
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Compare
+                </button>
+               </li>
+              </ul>
+             </div>
             </div>
             <a class="hover:text-primary text-sm font-medium text-mono px-2.5 leading-5.5 block" data-kt-drawer-toggle="#drawers_shop_product_details" href="#">
              Wave Strike Dynamic Boost Sneaker
@@ -2820,11 +2921,37 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          <div class="kt-card">
           <div class="kt-card-content flex flex-col justify-between p-2.5 gap-4">
            <div class="mb-2.5">
-            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none">
+            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none" data-kt-context-menu="true" data-kt-context-menu-trigger="true">
              <span class="kt-badge kt-badge-destructive kt-badge-sm absolute top-2 end-2 uppercase">
               save 40%
              </span>
              <img alt="" class="h-[180px] shrink-0 cursor-pointer" data-kt-drawer-toggle="#drawers_shop_product_details" src="assets/media/store/client/600x600/15.png"/>
+             <div class="kt-context-menu w-56 hidden" data-kt-context-menu-menu="true">
+              <ul class="kt-context-menu-sub">
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_product_details" type="button">
+                 Quick View
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_cart" type="button">
+                 Add to Cart
+                </button>
+               </li>
+               <li class="kt-context-menu-separator">
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Add to Wishlist
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Compare
+                </button>
+               </li>
+              </ul>
+             </div>
             </div>
             <a class="hover:text-primary text-sm font-medium text-mono px-2.5 leading-5.5 block" data-kt-drawer-toggle="#drawers_shop_product_details" href="#">
              Wave Strike Dynamic Boost Sneaker
@@ -2855,11 +2982,37 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          <div class="kt-card">
           <div class="kt-card-content flex flex-col justify-between p-2.5 gap-4">
            <div class="mb-2.5">
-            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none">
+            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none" data-kt-context-menu="true" data-kt-context-menu-trigger="true">
              <span class="kt-badge kt-badge-destructive kt-badge-sm absolute top-2 end-2 uppercase">
               save 40%
              </span>
              <img alt="" class="h-[180px] shrink-0 cursor-pointer" data-kt-drawer-toggle="#drawers_shop_product_details" src="assets/media/store/client/600x600/5.png"/>
+             <div class="kt-context-menu w-56 hidden" data-kt-context-menu-menu="true">
+              <ul class="kt-context-menu-sub">
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_product_details" type="button">
+                 Quick View
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_cart" type="button">
+                 Add to Cart
+                </button>
+               </li>
+               <li class="kt-context-menu-separator">
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Add to Wishlist
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Compare
+                </button>
+               </li>
+              </ul>
+             </div>
             </div>
             <a class="hover:text-primary text-sm font-medium text-mono px-2.5 leading-5.5 block" data-kt-drawer-toggle="#drawers_shop_product_details" href="#">
              Cloud Shift Lightweight Runner Pro Edition
@@ -2890,8 +3043,34 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          <div class="kt-card">
           <div class="kt-card-content flex flex-col justify-between p-2.5 gap-4">
            <div class="mb-2.5">
-            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none">
+            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none" data-kt-context-menu="true" data-kt-context-menu-trigger="true">
              <img alt="" class="h-[180px] shrink-0 cursor-pointer" data-kt-drawer-toggle="#drawers_shop_product_details" src="assets/media/store/client/600x600/3.png"/>
+             <div class="kt-context-menu w-56 hidden" data-kt-context-menu-menu="true">
+              <ul class="kt-context-menu-sub">
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_product_details" type="button">
+                 Quick View
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_cart" type="button">
+                 Add to Cart
+                </button>
+               </li>
+               <li class="kt-context-menu-separator">
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Add to Wishlist
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Compare
+                </button>
+               </li>
+              </ul>
+             </div>
             </div>
             <a class="hover:text-primary text-sm font-medium text-mono px-2.5 leading-5.5 block" data-kt-drawer-toggle="#drawers_shop_product_details" href="#">
              Titan Edge High Impact Stability Lightweight Trainers
@@ -2921,11 +3100,37 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          <div class="kt-card">
           <div class="kt-card-content flex flex-col justify-between p-2.5 gap-4">
            <div class="mb-2.5">
-            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none">
+            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none" data-kt-context-menu="true" data-kt-context-menu-trigger="true">
              <span class="kt-badge kt-badge-destructive kt-badge-sm absolute top-2 end-2 uppercase">
               save 40%
              </span>
              <img alt="" class="h-[180px] shrink-0 cursor-pointer" data-kt-drawer-toggle="#drawers_shop_product_details" src="assets/media/store/client/600x600/2.png"/>
+             <div class="kt-context-menu w-56 hidden" data-kt-context-menu-menu="true">
+              <ul class="kt-context-menu-sub">
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_product_details" type="button">
+                 Quick View
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_cart" type="button">
+                 Add to Cart
+                </button>
+               </li>
+               <li class="kt-context-menu-separator">
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Add to Wishlist
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Compare
+                </button>
+               </li>
+              </ul>
+             </div>
             </div>
             <a class="hover:text-primary text-sm font-medium text-mono px-2.5 leading-5.5 block" data-kt-drawer-toggle="#drawers_shop_product_details" href="#">
              Velocity Boost Xtreme High  Shock Absorbers
@@ -2956,8 +3161,34 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          <div class="kt-card">
           <div class="kt-card-content flex flex-col justify-between p-2.5 gap-4">
            <div class="mb-2.5">
-            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none">
+            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none" data-kt-context-menu="true" data-kt-context-menu-trigger="true">
              <img alt="" class="h-[180px] shrink-0 cursor-pointer" data-kt-drawer-toggle="#drawers_shop_product_details" src="assets/media/store/client/600x600/14.png"/>
+             <div class="kt-context-menu w-56 hidden" data-kt-context-menu-menu="true">
+              <ul class="kt-context-menu-sub">
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_product_details" type="button">
+                 Quick View
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_cart" type="button">
+                 Add to Cart
+                </button>
+               </li>
+               <li class="kt-context-menu-separator">
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Add to Wishlist
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Compare
+                </button>
+               </li>
+              </ul>
+             </div>
             </div>
             <a class="hover:text-primary text-sm font-medium text-mono px-2.5 leading-5.5 block" data-kt-drawer-toggle="#drawers_shop_product_details" href="#">
              Velocity Boost Xtreme High  Shock Absorbers
@@ -2987,8 +3218,34 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          <div class="kt-card">
           <div class="kt-card-content flex flex-col justify-between p-2.5 gap-4">
            <div class="mb-2.5">
-            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none">
+            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none" data-kt-context-menu="true" data-kt-context-menu-trigger="true">
              <img alt="" class="h-[180px] shrink-0 cursor-pointer" data-kt-drawer-toggle="#drawers_shop_product_details" src="assets/media/store/client/600x600/8.png"/>
+             <div class="kt-context-menu w-56 hidden" data-kt-context-menu-menu="true">
+              <ul class="kt-context-menu-sub">
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_product_details" type="button">
+                 Quick View
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_cart" type="button">
+                 Add to Cart
+                </button>
+               </li>
+               <li class="kt-context-menu-separator">
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Add to Wishlist
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Compare
+                </button>
+               </li>
+              </ul>
+             </div>
             </div>
             <a class="hover:text-primary text-sm font-medium text-mono px-2.5 leading-5.5 block" data-kt-drawer-toggle="#drawers_shop_product_details" href="#">
              Cloud Shift Lightweight Runner Pro Edition
@@ -3018,11 +3275,37 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          <div class="kt-card">
           <div class="kt-card-content flex flex-col justify-between p-2.5 gap-4">
            <div class="mb-2.5">
-            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none">
+            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none" data-kt-context-menu="true" data-kt-context-menu-trigger="true">
              <span class="kt-badge kt-badge-destructive kt-badge-sm absolute top-2 end-2 uppercase">
               save 40%
              </span>
              <img alt="" class="h-[180px] shrink-0 cursor-pointer" data-kt-drawer-toggle="#drawers_shop_product_details" src="assets/media/store/client/600x600/4.png"/>
+             <div class="kt-context-menu w-56 hidden" data-kt-context-menu-menu="true">
+              <ul class="kt-context-menu-sub">
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_product_details" type="button">
+                 Quick View
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_cart" type="button">
+                 Add to Cart
+                </button>
+               </li>
+               <li class="kt-context-menu-separator">
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Add to Wishlist
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Compare
+                </button>
+               </li>
+              </ul>
+             </div>
             </div>
             <a class="hover:text-primary text-sm font-medium text-mono px-2.5 leading-5.5 block" data-kt-drawer-toggle="#drawers_shop_product_details" href="#">
              Titan Edge High Impact Stability Lightweight Trainers
@@ -3053,8 +3336,34 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          <div class="kt-card">
           <div class="kt-card-content flex flex-col justify-between p-2.5 gap-4">
            <div class="mb-2.5">
-            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none">
+            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none" data-kt-context-menu="true" data-kt-context-menu-trigger="true">
              <img alt="" class="h-[180px] shrink-0 cursor-pointer" data-kt-drawer-toggle="#drawers_shop_product_details" src="assets/media/store/client/600x600/9.png"/>
+             <div class="kt-context-menu w-56 hidden" data-kt-context-menu-menu="true">
+              <ul class="kt-context-menu-sub">
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_product_details" type="button">
+                 Quick View
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_cart" type="button">
+                 Add to Cart
+                </button>
+               </li>
+               <li class="kt-context-menu-separator">
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Add to Wishlist
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Compare
+                </button>
+               </li>
+              </ul>
+             </div>
             </div>
             <a class="hover:text-primary text-sm font-medium text-mono px-2.5 leading-5.5 block" data-kt-drawer-toggle="#drawers_shop_product_details" href="#">
              Wave Strike Dynamic Boost Sneaker
@@ -3084,8 +3393,34 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
          <div class="kt-card">
           <div class="kt-card-content flex flex-col justify-between p-2.5 gap-4">
            <div class="mb-2.5">
-            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none">
+            <div class="kt-card flex items-center justify-center relative bg-accent/50 w-full h-[180px] mb-4 shadow-none" data-kt-context-menu="true" data-kt-context-menu-trigger="true">
              <img alt="" class="h-[180px] shrink-0 cursor-pointer" data-kt-drawer-toggle="#drawers_shop_product_details" src="assets/media/store/client/600x600/10.png"/>
+             <div class="kt-context-menu w-56 hidden" data-kt-context-menu-menu="true">
+              <ul class="kt-context-menu-sub">
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_product_details" type="button">
+                 Quick View
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" data-kt-drawer-toggle="#drawers_shop_cart" type="button">
+                 Add to Cart
+                </button>
+               </li>
+               <li class="kt-context-menu-separator">
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Add to Wishlist
+                </button>
+               </li>
+               <li>
+                <button class="kt-context-menu-link" data-kt-context-menu-dismiss="true" type="button">
+                 Compare
+                </button>
+               </li>
+              </ul>
+             </div>
             </div>
             <a class="hover:text-primary text-sm font-medium text-mono px-2.5 leading-5.5 block" data-kt-drawer-toggle="#drawers_shop_product_details" href="#">
              Velocity Boost Xtreme High  Shock Absorbers
@@ -3811,7 +4146,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
       <div class="flex flex-col md:flex-row justify-center md:justify-between items-center gap-3 py-5">
        <div class="flex order-2 md:order-1 gap-2 font-normal text-sm">
         <span class="text-secondary-foreground">
-         2025©
+         2026©
         </span>
         <a class="text-secondary-foreground hover:text-primary" href="https://keenthemes.com">
          Keenthemes Inc.
@@ -4788,7 +5123,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option selected="">
           Owner
          </option>
@@ -4812,7 +5147,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option>
           Owner
          </option>
@@ -4836,7 +5171,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option>
           Owner
          </option>
@@ -4954,7 +5289,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option selected="">
           Owner
          </option>
@@ -4978,7 +5313,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option>
           Owner
          </option>
@@ -5002,7 +5337,7 @@ License: https://keenthemes.com/metronic/tailwind/docs/getting-started/license
           </a>
          </div>
         </div>
-        <select class="kt-select max-w-24">
+        <select class="kt-select max-w-24" data-kt-select="true">
          <option>
           Owner
          </option>
