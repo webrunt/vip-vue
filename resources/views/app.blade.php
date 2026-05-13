@@ -14,9 +14,12 @@
     @inertiaHead
 </head>
 <body class="antialiased flex h-full text-base text-foreground bg-background demo1 kt-sidebar-fixed kt-header-fixed">
-    @inertia
-
+    <div class="flex grow">
+        <style>#app { display: contents; }</style>
+        @inertia
+    </div>
     <script src="{{ asset('assets/js/core.bundle.js') }}"></script>
+    <script src="{{ asset('assets/vendors/ktui/ktui.min.js') }}"></script>
     <script src="{{ asset('assets/vendors/apexcharts/apexcharts.min.js') }}"></script>
     <script src="{{ asset('assets/js/widgets/general.js') }}"></script>
     <script src="{{ asset('assets/js/layouts/demo1.js') }}"></script>

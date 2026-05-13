@@ -2,15 +2,17 @@
    <!-- Sidebar -->
    <div class="kt-sidebar bg-background border-e border-e-border fixed top-0 bottom-0 z-20 hidden lg:flex flex-col items-stretch shrink-0 [--kt-drawer-enable:true] lg:[--kt-drawer-enable:false]" data-kt-drawer="true" data-kt-drawer-class="kt-drawer kt-drawer-start top-0 bottom-0" id="sidebar">
     <div class="kt-sidebar-header hidden lg:flex items-center relative justify-between px-3 lg:px-6 shrink-0" id="sidebar_header">
-     <a class="dark:hidden" href="html/demo1.html">
-      <img class="default-logo min-h-[22px] max-w-none" src="@assets/media/app/default-logo.svg"/>
-      <img class="small-logo min-h-[22px] max-w-none" src="@assets/media/app/mini-logo.svg"/>
-     </a>
-     <a class="hidden dark:block" href="html/demo1.html">
-      <img class="default-logo min-h-[22px] max-w-none" src="@assets/media/app/default-logo-dark.svg"/>
-      <img class="small-logo min-h-[22px] max-w-none" src="@assets/media/app/mini-logo.svg"/>
-     </a>
-     <button class="kt-btn kt-btn-outline kt-btn-icon size-[30px] absolute start-full top-2/4 -translate-x-2/4 -translate-y-2/4 rtl:translate-x-2/4" data-kt-toggle="body" data-kt-toggle-class="kt-sidebar-collapse" id="sidebar_toggle">
+     <div class="kt-sidebar-logo min-w-0">
+      <a class="dark:hidden" href="html/demo1.html">
+       <img class="default-logo min-h-[22px] max-w-none" src="@assets/media/app/default-logo.svg"/>
+       <img class="small-logo min-h-[22px] max-w-none" src="@assets/media/app/mini-logo.svg"/>
+      </a>
+      <a class="hidden dark:block" href="html/demo1.html">
+       <img class="default-logo min-h-[22px] max-w-none" src="@assets/media/app/default-logo-dark.svg"/>
+       <img class="small-logo min-h-[22px] max-w-none" src="@assets/media/app/mini-logo.svg"/>
+      </a>
+     </div>
+     <button class="kt-btn kt-btn-outline kt-btn-icon size-[30px] absolute start-full top-2/4 z-40 -translate-x-2/4 -translate-y-2/4 rtl:translate-x-2/4" data-kt-toggle="body" data-kt-toggle-class="kt-sidebar-collapse" id="sidebar_toggle">
       <i class="ki-filled ki-black-left-line kt-toggle-active:rotate-180 transition-all duration-300 rtl:translate rtl:rotate-180 rtl:kt-toggle-active:rotate-0">
       </i>
      </button>
@@ -673,6 +675,15 @@
             </a>
            </div>
            <div class="kt-menu-item">
+            <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[5px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/account/members/team-members-datatable.html" tabindex="0">
+             <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
+             </span>
+             <span class="kt-menu-title text-2sm font-normal text-foreground kt-menu-item-active:text-primary kt-menu-item-active:font-semibold kt-menu-link-hover:!text-primary">
+              Team Members (DataTables)
+             </span>
+            </a>
+           </div>
+           <div class="kt-menu-item">
             <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[5px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/account/members/import-members.html" tabindex="0">
              <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
              </span>
@@ -1266,6 +1277,15 @@
           </a>
          </div>
          <div class="kt-menu-item">
+          <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[14px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/authentication/welcome-message-2.html" tabindex="0">
+           <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
+           </span>
+           <span class="kt-menu-title text-2sm font-normal text-foreground kt-menu-item-active:text-primary kt-menu-item-active:font-semibold kt-menu-link-hover:!text-primary">
+            Welcome Message 2
+           </span>
+          </a>
+         </div>
+         <div class="kt-menu-item">
           <a class="kt-menu-link border border-transparent items-center grow kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg gap-[14px] ps-[10px] pe-[10px] py-[8px]" href="html/demo1/authentication/account-deactivated.html" tabindex="0">
            <span class="kt-menu-bullet flex w-[6px] -start-[3px] rtl:start-0 relative before:absolute before:top-0 before:size-[6px] before:rounded-full rtl:before:translate-x-1/2 before:-translate-y-1/2 kt-menu-item-active:before:bg-primary kt-menu-item-hover:before:bg-primary">
            </span>
@@ -1450,6 +1470,17 @@
           </a>
          </div>
         </div>
+       </div>
+       <div class="kt-menu-item">
+        <a class="kt-menu-link gap-[10px] ps-[10px] pe-[10px] py-[6px] border border-transparent kt-menu-item-active:bg-accent/60 dark:menu-item-active:border-border kt-menu-item-active:rounded-lg hover:bg-accent/60 hover:rounded-lg" href="html/demo1/plugins/fullcalendar.html" tabindex="0">
+         <span class="kt-menu-icon items-start text-muted-foreground kt-menu-item-active:text-primary kt-menu-link-hover:!text-primary w-[20px]">
+          <i class="ki-filled ki-calendar-tick text-lg">
+          </i>
+         </span>
+         <span class="kt-menu-title text-sm font-medium text-foreground kt-menu-item-active:text-primary kt-menu-link-hover:!text-primary">
+          Project Planning
+         </span>
+        </a>
        </div>
        <div class="kt-menu-item">
         <div class="kt-menu-label border border-transparent gap-[10px] ps-[10px] pe-[10px] py-[6px]" href="" tabindex="0">

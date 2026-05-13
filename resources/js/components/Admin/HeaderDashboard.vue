@@ -1,8 +1,7 @@
 <script setup>
-        import Breadcrumbs from '@/components/Admin/BreadCrumbs.vue';
-        import Topbar from '@/components/Admin/TopBar.vue';
+    import MegaMenu from '@/components/Admin/MegaMenu.vue';
+    import Topbar from '@/components/Admin/TopBar.vue';
 </script>
-
 <template>
     <!-- Header -->
     <header class="kt-header fixed top-0 z-10 start-0 end-0 flex items-stretch shrink-0 bg-background" data-kt-sticky="true" data-kt-sticky-class="border-b border-border" data-kt-sticky-name="header" id="header">
@@ -18,11 +17,15 @@
          <i class="ki-filled ki-menu">
          </i>
         </button>
+        <button class="kt-btn kt-btn-icon kt-btn-ghost" data-kt-drawer-toggle="#mega_menu_wrapper">
+         <i class="ki-filled ki-burger-menu-2">
+         </i>
+        </button>
        </div>
       </div>
       <!-- End of Mobile Logo -->
 
-      <Breadcrumbs />
+      <MegaMenu />
 
       <Topbar />
 
