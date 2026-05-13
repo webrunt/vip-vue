@@ -6,6 +6,9 @@ import { onMounted } from 'vue';
 import { router } from '@inertiajs/vue3';
 
 onMounted(() => {
+    // Add dashboard-specific classes
+    document.body.classList.add('demo1', 'kt-sidebar-fixed', 'kt-header-fixed');
+
     // Initialize Metronic components when layout mounts
     const initMetronic = () => {
         if (typeof KTComponents !== 'undefined') {

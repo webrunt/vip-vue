@@ -14,6 +14,9 @@ return Application::configure(basePath: dirname(__DIR__))
             Route::middleware('web')
                 ->domain(env('ADMIN_DOMAIN'))
                 ->group(base_path('routes/admin.php'));
+            Route::middleware('web')
+                ->domain(env('MEMBER_DOMAIN'))
+                ->group(base_path('routes/member.php'));
         },
     )
     ->withMiddleware(function (Middleware $middleware): void {
